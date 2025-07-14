@@ -1,0 +1,66 @@
+body {
+    background-color: #E3DAC9; /* Bone background */
+    color: #333;
+    font-family: "Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+nav {
+    text-align: center;
+    padding: 1rem;
+}
+nav a {
+    margin: 0 1rem;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+section {
+    margin-bottom: 3rem;
+}
+h1, h2, h3 {
+    color: #222;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 1rem;
+}
+.project, .blog-post {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
+}
+.project h3, .blog-post h3 {
+    margin: 0.5rem 0;
+}
+.detail-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.detail-page .back-link {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+.detail-page .back-link:hover {
+    text-decoration: underline;
+}
